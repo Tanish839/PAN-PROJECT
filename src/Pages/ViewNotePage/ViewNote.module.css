@@ -1,0 +1,130 @@
+.container {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 2rem;
+  background-color: #fffef4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.group {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.textBlock {
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.textBlock p {
+  margin: 5px 0 0;
+  white-space: pre-wrap;
+}
+
+.approvalBox {
+  margin-top: 1rem;
+  background-color: #f0f6ff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccd;
+}
+
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.approveBtn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.approveBtn:hover {
+  background-color: #218838;
+}
+
+.rejectBtn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rejectBtn:hover {
+  background-color: #c82333;
+}
+
+.backButton {
+  margin-top: 30px;
+  background-color: #004aad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: #003080;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 100px;
+}
+.actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.approveBtn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rejectBtn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approveBtn:hover {
+  background-color: #218838;
+}
+
+.rejectBtn:hover {
+  background-color: #c82333;
+}

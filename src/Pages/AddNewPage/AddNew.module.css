@@ -1,0 +1,126 @@
+.container {
+  padding: 2rem;
+  max-width: 850px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.redNote {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 0.8rem;
+}
+
+.heading {
+  text-align: center;
+  color: #004085;
+  margin-bottom: 1.2rem;
+}
+
+.subHeading {
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #004085;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.inputGroup input,
+.inputGroup textarea,
+.inputGroup select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4px;
+}
+
+.timeline {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.submitBtn {
+  background-color: #004085;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.draftBtn {
+  background-color: #f1c40f;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #003265;
+}
+
+.draftBtn:hover {
+  background-color: #e0b200;
+}
+
+.uploadBtn {
+  margin-top: 6px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.uploadBtn:hover {
+  background-color: #0056b3;
+}
+
+.f5note {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 1rem;
+  color: #555;
+}

@@ -1,0 +1,105 @@
+.container {
+  padding: 1.5rem;
+}
+
+.rolesRow {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 10px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.roleButton {
+  white-space: nowrap;
+  background-color: #f1c40f;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.roleButton:hover {
+  background-color: #e0b200;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #004085;
+}
+
+.statusRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.statusButton {
+  background-color: #d6e9f8;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #00509e;
+  cursor: pointer;
+}
+
+.statusButton:hover {
+  background-color: #bfe2f5;
+}
+
+.table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #f8f9fa;
+  color: #333;
+}
+.active {
+  outline: 2px solid #004085;
+  background-color: #ffe066 !important;
+}
+.addNewButton {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  left: auto;
+  background-color: #f1c40f;
+  color: black;
+  padding: 12px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.addNewButton:hover {
+  background-color: #e0b200;
+}
+
+
+

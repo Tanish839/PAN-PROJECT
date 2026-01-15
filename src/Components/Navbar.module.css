@@ -1,0 +1,80 @@
+.navbarContainer {
+  width: 100%;
+  background-color: #fff9c4; 
+}
+
+.banner {
+  display: block;
+  margin: 0 auto;
+  max-height: 70px;
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #fdd835;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.homeIcon {
+  font-size: 24px;
+  color: #003366;
+  cursor: pointer;
+}
+
+.center h1 {
+  text-align: center;
+  font-size: 22px;
+  color: #003366;
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.right button,
+.right a {
+  font-size: 14px;
+  background: none;
+  border: none;
+  color: #003366;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.username {
+  text-align: center;
+  background-color: #fff9c4;
+  padding: 6px;
+  font-weight: 500;
+  color: #003366;
+}
+.navLink {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logoutBtn {
+  margin-left: 15px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+

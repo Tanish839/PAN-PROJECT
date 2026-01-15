@@ -1,0 +1,46 @@
+import mongoose from "mongoose";
+
+const processNoteSchema = new mongoose.Schema({
+    processName: { type: String, required: true },
+    company: String,
+    zone: String,
+    department: String,
+    category: String,
+    businessCase: String,
+    businessAttachment: String,
+    budgetType: String,
+    background: String,
+    processObjective: String,
+    processDetails: String,
+    responsibility: String,
+    otherDetails: String,
+    oldPanReference: String,
+    attachment: String,
+    timelineStart: Date,
+    timelineEnd: Date,
+    createdBy: String,
+    status: { type: String, default: "draft" },
+    rejectionReason: String,
+    rejectedBy: String,
+    approvalFlow: {
+        step1: String,
+        step2: String,
+        hod: String,
+        zfc: String,
+        step3a: String,
+        step3b: String,
+        step4: String,
+        director: String,
+        cr: String,
+        gmfin: String,
+        cfo: String,
+        cooint: String,
+        rpteam: String,
+        ceo: String,
+        fwpan: String,
+    },
+
+    createdAt: { type: Date, default: Date.now },
+});
+
+export default mongoose.model("ProcessNote", processNoteSchema);

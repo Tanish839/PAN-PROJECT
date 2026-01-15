@@ -1,0 +1,123 @@
+/* src/pages/EditNote/EditNote.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.group, .inputGroup { /* Using both for consistency with your other files */
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group label, .inputGroup label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+/* ✅ UNIFIED STYLE for all form inputs */
+.group input[type="text"],
+.group input[type="date"],
+.group textarea,
+.group select,
+.inputGroup input[type="text"],
+.inputGroup input[type="date"],
+.inputGroup textarea,
+.inputGroup select {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: #fff;
+  font-family: inherit; /* Ensures consistent font */
+}
+
+/* ✅ NEW STYLE for radio button groups */
+.radioGroup {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.radioGroup label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.submitBtn,
+.draftBtn {
+  padding: 10px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitBtn:hover, .draftBtn:hover {
+    opacity: 0.9;
+}
+
+.submitBtn {
+  background-color: #0055ff;
+}
+
+.draftBtn {
+  background-color: #6c757d;
+}
+
+.backButton {
+  margin-top: 20px;
+  background-color: #aaa;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  align-self: flex-start; /* Aligns the button to the left */
+}
+
+.backButton:hover {
+  background-color: #888;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #666;
+}

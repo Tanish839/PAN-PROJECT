@@ -1,0 +1,98 @@
+/* ==== RESET AND BASE STYLES ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fffdf5; /* soft off-white yellow background */
+  color: #333;
+}
+
+/* ==== LINKS ==== */
+a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #d4ac0d;
+}
+
+/* ==== NAVBAR ==== */
+.navbar {
+  background-color: #f1c40f !important;
+  color: black;
+}
+
+.navbar-brand,
+.nav-link {
+  color: black !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #0056b3 !important;
+}
+
+/* ==== BUTTONS ==== */
+.btn-primary {
+  background-color: #f1c40f;
+  border-color: #f1c40f;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #d4ac0d;
+  border-color: #c39c09;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #004494;
+  border-color: #003e86;
+}
+
+/* ==== CARD / PANEL ==== */
+.card {
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  background-color: #fffef6;
+}
+
+/* ==== CUSTOM UTILITY CLASSES ==== */
+.text-yellow {
+  color: #f1c40f;
+}
+
+.bg-yellow {
+  background-color: #f1c40f !important;
+  color: black;
+}
+
+.text-blue {
+  color: #0056b3;
+}
+
+.bg-blue {
+  background-color: #0056b3 !important;
+  color: white;
+}
+
+.shadow-soft {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.rounded-xl {
+  border-radius: 1rem;
+}
